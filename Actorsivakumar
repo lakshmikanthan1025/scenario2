@@ -1,0 +1,34 @@
+public class Actorsivakumar implements Actor{
+String address = "Coimbatore";
+String carname;
+int a;
+Actorsivakumar(int a,String carname){
+this.carname = carname;
+this.a = a;
+}
+Actorsivakumar(){
+
+}
+public void act(){
+System.out.println("sivak umar");
+}
+public void dance(){
+System.out.println("yes i do dance");
+}
+public void sing(){
+System.out.println("yes i do dance");
+}
+public void speaking(){
+System.out.println("yes am speacker");
+}
+public static void main(String[]args){
+Actorsivakumar as = new Actorsivakumar(65,"audi car");
+Actor ac = new Actorsivakumar();
+as.act();
+as.dance();
+as.sing();
+as.speaking();
+System.out.println(as.carname);
+System.out.println(ac.address);
+} 
+}
