@@ -1,0 +1,7 @@
+public interface Actor{
+boolean mackupRequired = true;
+String address="Chennai";
+void act();
+void dance();
+void sing();
+}
